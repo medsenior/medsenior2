@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'MEDSENIOR | Cuidado que acolhe',
-  description: 'Planos de saúde, atendimento próximo e cuidado humanizado para viver bem.',
+  title: 'MedSênior | Saúde para viver bem todos os dias',
+  description: 'Conheça a MedSênior e encontre um cuidado de saúde mais próximo, seguro e humanizado.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -26,11 +26,9 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  colorScheme: 'light',
+  themeColor: '#0c573d',
+  userScalable: false,
 }
 
 export default function RootLayout({
